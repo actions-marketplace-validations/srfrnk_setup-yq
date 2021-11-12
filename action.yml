@@ -9,7 +9,7 @@ inputs:
   yq-url:
     description: 'The url to download YQ from'
     required: false
-    default: 'https://github.com/mikefarah/yq/releases/download/{version}/yq_{platform}_{arch}'
+    default: 'https://github.com/mikefarah/yq/releases/latest/download/yq_{platform}_{arch}' 
 runs:
   using: 'node12'
   main: 'dist/index.js'
