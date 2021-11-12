@@ -1,5 +1,5 @@
 # such active yaml!
-name: 'setup-yq'
+name: 'setup-yq-latest'
 description: 'Install a version of the venerable YQ tool'
 inputs:
   yq-version:  # id of input
